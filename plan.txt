@@ -1,0 +1,8 @@
+1. click ascension 
+2. click equipment
+3. get all the data except lv stat
+4. for each character go to the character page
+    5. make equipment, trust lv and ascension to lv minimum note do it (terurut) as stated
+    6. for each ascension and lv fetch the lv stat - equipmentlv 
+    7. make character.json for the character
+done 

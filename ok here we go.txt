@@ -1,0 +1,28 @@
+<div class="name">
+<div class="ATK"> //max value
+<div class="DEF"> //max value
+<div class="HP"> //max value
+<div class="Skill">
+<div class="SkillCD">
+<div class="Equipment"> //max value
+<div class="Faction">
+
+//double trouble
+<div class="CD1A3 charAbility TP2">
+<div class="CD2A3 charAbility TP9">
+<div class="CD3A3 charAbility TP12">
+<div class="BT1 charBT charAbility">
+<div class="BT2 charBT charAbility">
+<div class="BT3 charBT charAbility">
+<div class="BT4 charBT charAbility">
+<div class="BT5 charBT charAbility">
+<div class="BT6 charBT charAbility">
+
+//the class lol
+<div class="Rarity Rarity6">
+<div class="Ele Fire">
+<div class="Ele2 Forest">
+<div class="Role Detonator">
+
+//empty value?????
+<div class="h1 equipName">

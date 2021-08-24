@@ -1,0 +1,388 @@
+<div class="charInfoBlock">
+ <div class="name">
+  <span>
+   Charon
+  </span>
+ </div>
+ <div class="expandBlock">
+  <div class="artWrapper">
+  </div>
+  <div class="details">
+   <div class="stats detailsCol">
+    <div class="Rarity Rarity6">
+     <span>
+     </span>
+    </div>
+    <div class="Ele Fire">
+     <span>
+     </span>
+    </div>
+    <div class="Ele2 Forest">
+     <span>
+     </span>
+    </div>
+    <div>
+     <div class="ATK">
+      ATK:
+      <span>
+       3266
+      </span>
+     </div>
+     <div class="DEF">
+      DEF:
+      <span>
+       1084
+      </span>
+     </div>
+     <div class="HP">
+      HP:
+      <span>
+       9206
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="skills detailsCol overviewDetail">
+    <div class="Skill">
+     Skill:
+     <span>
+      Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack.
+     </span>
+    </div>
+    <div class="SkillCD">
+     Skill CD:
+     <span>
+      3 Turn
+     </span>
+    </div>
+    <div class="Equipment">
+     Equipment:
+     <span>
+      Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.
+     </span>
+    </div>
+   </div>
+   <div class="detailsCol overviewDetail">
+    <div class="h1">
+     Chain Combo
+    </div>
+    <div class="CD1A3 charAbility TP2">
+     <span>
+      Deals 170% damage to 1 surrounding cluster.
+     </span>
+    </div>
+    <div class="CD2A3 charAbility TP9">
+     <span>
+      Deals 175% damage to 16 tiles in a radial shape.
+     </span>
+    </div>
+    <div class="CD3A3 charAbility TP12">
+     <span>
+      Deals 180% damage to 2 surrounding clusters.
+     </span>
+    </div>
+    <div class="h1">
+     Breakthrough
+    </div>
+    <div class="BT1 charBT charAbility">
+     <span>
+      HP increased by 300.
+     </span>
+    </div>
+    <div class="BT2 charBT charAbility">
+     <span>
+      DEF increased by 40.
+     </span>
+    </div>
+    <div class="BT3 charBT charAbility">
+     <span>
+      Active Skill Enhancement: Changes Active Skill to Preemptive Strike. Available upon entering combat.
+     </span>
+    </div>
+    <div class="BT4 charBT charAbility">
+     <span>
+      Increased by 300+5%Basic max HP.
+     </span>
+    </div>
+    <div class="BT5 charBT charAbility">
+     <span>
+      Increased by 40+5%Basic DEF.
+     </span>
+    </div>
+    <div class="BT6 charBT charAbility">
+     <span>
+      Active Skill Enhancement: Has an increased chance to generate Red tiles.
+     </span>
+    </div>
+   </div>
+   <div class="detailsCol equipDetail mats">
+    <div class="h1 equipName">
+     <span>
+      Flare Gun: Horizon
+     </span>
+    </div>
+    <div class="mat">
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3000002.jpg"/>
+      <span class="itemName">
+       Nightium
+      </span>
+      <span class="itemNum">
+       x 580000
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3210501.jpg"/>
+      <span class="itemName">
+       Battle Archive I
+      </span>
+      <span class="itemNum">
+       x 15
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3210502.jpg"/>
+      <span class="itemName">
+       Battle Archive II
+      </span>
+      <span class="itemNum">
+       x 20
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3210503.jpg"/>
+      <span class="itemName">
+       Battle Archive III
+      </span>
+      <span class="itemNum">
+       x 25
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3500001.jpg"/>
+      <span class="itemName">
+       Sublime
+      </span>
+      <span class="itemNum">
+       x 6500
+      </span>
+     </span>
+    </div>
+   </div>
+   <div class="detailsCol equipDetail wide">
+    <div class="h1 passiveName">
+     <span>
+      Direct Line
+     </span>
+    </div>
+    <div class="EQlist">
+     <div class="EQ1A3 charEQ charAbility">
+      <span>
+       Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 4% of ATK to normal attacks.
+      </span>
+     </div>
+     <div class="EQ3A3 charEQ charAbility">
+      <span>
+       Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 6% of ATK to normal attacks.
+      </span>
+     </div>
+     <div class="EQ6A3 charEQ charAbility">
+      <span>
+       Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 8% of ATK to normal attacks.
+      </span>
+     </div>
+     <div class="EQ10A3 charEQ charAbility">
+      <span>
+       Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="matA1 detailsCol gradeDetail mats">
+    <div class="h1">
+     Ascension 1
+    </div>
+    <div class="mat">
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3202022.jpg"/>
+      <span class="itemName">
+       Fire Crystal Shard
+      </span>
+      <span class="itemNum">
+       x 20
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3201021.jpg"/>
+      <span class="itemName">
+       Fire Flare Powder
+      </span>
+      <span class="itemNum">
+       x 30
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3210501.jpg"/>
+      <span class="itemName">
+       Battle Archive I
+      </span>
+      <span class="itemNum">
+       x 10
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3000002.jpg"/>
+      <span class="itemName">
+       Nightium
+      </span>
+      <span class="itemNum">
+       x 30000
+      </span>
+     </span>
+    </div>
+    <div class="h1 upgrade1">
+     <span>
+      Equipment Unlock
+     </span>
+    </div>
+    <div class="upgradeB1 charGrade charAbility">
+     <span>
+     </span>
+    </div>
+    <div class="upgradeA1 charGrade charAbility">
+     <span>
+      Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.
+     </span>
+    </div>
+   </div>
+   <div class="matA2 detailsCol gradeDetail mats">
+    <div class="h1">
+     Ascension 2
+    </div>
+    <div class="mat">
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3203021.jpg"/>
+      <span class="itemName">
+       Fire Flare Rock
+      </span>
+      <span class="itemNum">
+       x 20
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3202023.jpg"/>
+      <span class="itemName">
+       Fire Potion I
+      </span>
+      <span class="itemNum">
+       x 30
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3210502.jpg"/>
+      <span class="itemName">
+       Battle Archive II
+      </span>
+      <span class="itemNum">
+       x 10
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3000002.jpg"/>
+      <span class="itemName">
+       Nightium
+      </span>
+      <span class="itemNum">
+       x 50000
+      </span>
+     </span>
+    </div>
+    <div class="h1 upgrade2">
+     <span>
+      Active Skill Upgrade
+     </span>
+    </div>
+    <div class="upgradeB2 charGrade charAbility">
+     <span>
+      Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Resets all non-Red tiles within the area of attack.
+     </span>
+    </div>
+    <div class="upgradeA2 charGrade charAbility">
+     <span>
+      Deals 300% damage to 3 selected columns or 3 selected rows and knocks enemies back. Damage dealt to the middle row or column will be 1.5x damage dealt to the two sides. Resets all non-Red tiles within the area of attack.
+     </span>
+    </div>
+   </div>
+   <div class="matA3 detailsCol gradeDetail mats">
+    <div class="h1">
+     Ascension 3
+    </div>
+    <div class="mat">
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3204023.jpg"/>
+      <span class="itemName">
+       Fire Potion III
+      </span>
+      <span class="itemNum">
+       x 20
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3203022.jpg"/>
+      <span class="itemName">
+       Fire Crystal
+      </span>
+      <span class="itemNum">
+       x 30
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3210503.jpg"/>
+      <span class="itemName">
+       Battle Archive III
+      </span>
+      <span class="itemNum">
+       x 10
+      </span>
+     </span>
+     <span class="item">
+      <img src="/img/assets/items/icon_item_3000002.jpg"/>
+      <span class="itemName">
+       Nightium
+      </span>
+      <span class="itemNum">
+       x 200000
+      </span>
+     </span>
+    </div>
+    <div class="h1 upgrade3">
+     <span>
+      Equipment Upgrade
+     </span>
+    </div>
+    <div class="upgradeB3 charGrade charAbility">
+     <span>
+      Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.
+     </span>
+    </div>
+    <div class="upgradeA3 charGrade charAbility">
+     <span>
+      Normal attacks can now attack diagonally. Adds DEF-ignoring damage equal to 10% of ATK to normal attacks.
+     </span>
+    </div>
+   </div>
+   <div class="footer">
+    <div class="Role Detonator">
+     <span>
+      Detonator
+     </span>
+    </div>
+    <div class="Faction">
+     <span>
+      Illumina Federation
+     </span>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
