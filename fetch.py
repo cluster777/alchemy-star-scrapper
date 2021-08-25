@@ -57,17 +57,18 @@ def get_data(target):
             tmp["skill"]={}
             tmp["skill"]["name"]=""
             tmp["skill"]["cd"]=skillcd[i].find('span').getText()
-            #skill description get on first ascension (first one pls)
+            #need description for each ascension(1x3)(ascend (0,1),2,3)
 
             #equip
             tmp["equip"]={}
             tmp["equip"]["name"]=equipname.find('span').getText()
             tmp["equip"]["passive"]=equippassive.find('span').getText()
-            #equip passvie description should be get on first ascension
-            #tmp["equip"]["effect"]=[]
-            #for desc in equipdesc:    
-            #    tmp["equip"]["effect"].append(desc.find('span').getText())
+            #need equip description for each ascension(4x3)(ascend 1,2,3)
             
+            #chain combo
+            tmp["chain"]={}
+            tmp["chain"]["name"]=""
+            #need description and cost for each ascension (3x3)(ascend (0,1),2,3)
 
             #third patern
             tmp['breaktrought']=[]
@@ -120,18 +121,17 @@ def get_stat(target,rarity,asc):
 
     return {"att":int(att)-int(equipatt),"def":int(defen)-int(equipdef),"hp":int(hp)-int(equiphp)}
 # move this to the masterpiece and do it for every ascension
-def get_misc(target,equip,skill):
+def get_chain(target):
 
     soup=bs(target,'html.parser')
     soup=soup.find('div',{'id':'info'})
     ccx=soup.find_all('div',{'class':'overviewDetail'})[1]
-    activeequip=soup.find_all('div',{'class':'overviewDetail'})[0]
-    tmp={}
-    tmp.update(equip)
-    tmp.update(skill)
-    tmp["chaincombo"]=[]
+    
+    tmp=[]
+
+    ccx=ccx.find_all('div',{'class':re.compile('CD\dA\d')})
+
     for cc in ccx:
-                print(cc)
                 ttmp={}
                 #get the cost
                 ttmp['cost']=re.search('charAbility TP(\d+)',str(cc))
@@ -142,9 +142,22 @@ def get_misc(target,equip,skill):
                 ttmp['description']=cc.find('span')
                 if ttmp['description']!=None:
                     ttmp['description']=ttmp['description'].getText()
-                tmp["chaincombo"].append(ttmp)
+                
+                tmp.append(ttmp)
     
-    tmp["skill"]["description"]=activeequip.find('div',{'class':'Equipment'}).find('span').getText()
+    #tmp["skill"]["description"]=active.find('div',{'class':'Equipment'}).find('span').getText()
     return tmp
+
+def get_skill(target):
+    soup=bs(target,'html.parser')
+    soup=soup.find('div',{'id':'info'})
+    active=soup.find_all('div',{'class':'overviewDetail'})[0]
+    return active.find('div',{'class':'Skill'}).find('span').getText()
+
+def get_equip(target):
+    soup=bs(target,'html.parser')
+    soup=soup.find('div',{'id':'info'})
+    active=soup.find_all('div',{'class':'overviewDetail'})[0]
+    return active.find('div',{'class':'Equipment'}).find('span').getText()
 
 #print(data)

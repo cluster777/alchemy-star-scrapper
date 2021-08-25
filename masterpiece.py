@@ -4,6 +4,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 import fetch
 import generator
+from bs4 import BeautifulSoup as bs
+import re
 # choose chrome
 driver = webdriver.Chrome()
 # slow start
@@ -36,6 +38,9 @@ for char in data:
     print("t")
     char["base_stat"]={}
     char["base_stat"]["stat"]=[]
+    char["skill"]["description"]=[]
+    char["chain"]["detail"]=[]
+    char["equip"]["description"]=[]
     time.sleep(1)
     while True:
         #get data init
@@ -48,8 +53,13 @@ for char in data:
             char["base_stat"]["stat"].append(fetch.get_stat(driver.page_source,int(char["rarity"]),int(ascension.get_attribute("value"))))
         
         #get value here cc active equipment
+        if(int(max)>30):
+            char["skill"]["description"].append(fetch.get_skill(driver.page_source))
+            char["chain"]["detail"].append(fetch.get_chain(driver.page_source))
+
         print("datadatadata")
         if(int(max)>70 or (int(char["rarity"])==3 and int(max)>45)):
+            print("create character {name}.json".format(name=char["name"]))
             generator.generate_char(char)
             break
         #javascript do value set
