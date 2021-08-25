@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 import fetch
 import generator
-from bs4 import BeautifulSoup as bs
 import re
+import os
 # choose chrome
 driver = webdriver.Chrome()
 # slow start
@@ -18,11 +18,17 @@ time.sleep(10)
 driver.find_element_by_id('btnGradeView').click()
 time.sleep(10)
 driver.find_element_by_id('btnEquipView').click()
-time.sleep(20)
+time.sleep(10)
 #scrap the main page for general purpose data
 data=fetch.get_data(driver.page_source)
 generator.generate_charlist(data)
+finished=[]
+for file in os.listdir('./json'):
+    finished.append(re.search('(.*)\.json',str(file)).group(1))
 for char in data:
+    if(char["name"] in finished):
+        print("skip {name}".format(name=char["name"]))
+        continue
     driver.get("https://vice-as.herokuapp.com/db/"+char["name"])
     time.sleep(20)
     level =  driver.find_element_by_class_name("charLevel")
