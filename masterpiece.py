@@ -24,9 +24,10 @@ data=fetch.get_data(driver.page_source)
 generator.generate_charlist(data)
 for char in data:
     driver.get("https://vice-as.herokuapp.com/db/"+char["name"])
-    time.sleep(10)
+    time.sleep(20)
     level =  driver.find_element_by_class_name("charLevel")
     ascension=driver.find_element_by_id('info').find_element_by_class_name("charGrade")
+    equip=driver.find_element_by_id('info').find_element_by_class_name("charEquip")
     move = ActionChains(driver)
     max=30
     driver.execute_script("document.getElementsByClassName(\"charLevel\")[0].value=2")
@@ -56,8 +57,17 @@ for char in data:
         if(int(max)>30):
             char["skill"]["description"].append(fetch.get_skill(driver.page_source))
             char["chain"]["detail"].append(fetch.get_chain(driver.page_source))
+            #now for the equipment
+            tmp=[]
+            tmp.append(fetch.get_equip(driver.page_source))
+            while int(equip.get_attribute("value"))<10:
+                equip.send_keys(Keys.RIGHT)
+                tmp.append(fetch.get_equip(driver.page_source))
+            
+            while int(equip.get_attribute("value"))>1:
+                equip.send_keys(Keys.LEFT)
+            char["equip"]["description"].append(tmp)   
 
-        print("datadatadata")
         if(int(max)>70 or (int(char["rarity"])==3 and int(max)>45)):
             print("create character {name}.json".format(name=char["name"]))
             generator.generate_char(char)
