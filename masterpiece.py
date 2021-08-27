@@ -35,7 +35,7 @@ for char in data:
     ascension=driver.find_element_by_id('info').find_element_by_class_name("charGrade")
     equip=driver.find_element_by_id('info').find_element_by_class_name("charEquip")
     move = ActionChains(driver)
-    max=30
+    
     driver.execute_script("document.getElementsByClassName(\"charLevel\")[0].value=2")
     if(char["faction"]!="silent hunter"):
         driver.execute_script("document.getElementById('info').getElementsByClassName(\"charGrade\")[0].value=1")
@@ -45,6 +45,7 @@ for char in data:
             equip.send_keys(Keys.LEFT)
     time.sleep(1)
     level.send_keys(Keys.LEFT)
+    max=level.get_attribute("max")
     print("t")
     char["base_stat"]={}
     char["base_stat"]["stat"]=[]
