@@ -40,6 +40,9 @@ for char in data:
     if(char["faction"]!="silent hunter"):
         driver.execute_script("document.getElementById('info').getElementsByClassName(\"charGrade\")[0].value=1")
         ascension.send_keys(Keys.LEFT)
+    else:
+        while int(equip.get_attribute("value"))>1:
+            equip.send_keys(Keys.LEFT)
     time.sleep(1)
     level.send_keys(Keys.LEFT)
     print("t")
