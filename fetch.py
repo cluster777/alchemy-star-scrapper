@@ -112,18 +112,17 @@ def get_stat(target,rarity,asc,faction):
     if(asc>0):
         if(rarity>=5):
             if(faction=='silent hunter'):
-                equipatt=25
-                equipdef=5
-                equiphp=50
+                equipatt=25+65
+                equipdef=5+30
+                equiphp=50+300
             else:
-                equipatt=30
-                equipdef=10
-                equiphp=50
+                equipatt=30+65
+                equipdef=10+30
+                equiphp=50+300
         else:
-            equipatt=25
-            equipdef=10
-            equiphp=50
-
+            equipatt=25+65
+            equipdef=10+30
+            equiphp=50+300
     return {"att":int(att)-int(equipatt),"def":int(defen)-int(equipdef),"hp":int(hp)-int(equiphp)}
 # move this to the masterpiece and do it for every ascension
 def get_chain(target):
