@@ -13,12 +13,12 @@ time.sleep(10)
 #get the page
 driver.get("https://vice-as.herokuapp.com/db/")
 # note slow connection thanks
-time.sleep(10)
+time.sleep(5)
 
 driver.find_element_by_id('btnGradeView').click()
-time.sleep(10)
+time.sleep(5)
 driver.find_element_by_id('btnEquipView').click()
-time.sleep(10)
+time.sleep(5)
 #scrap the main page for general purpose data
 data=fetch.get_data(driver.page_source)
 generator.generate_charlist(data)
@@ -30,7 +30,7 @@ for char in data:
         print("skip {name}".format(name=char["name"]))
         continue
     driver.get("https://vice-as.herokuapp.com/db/"+char["name"])
-    time.sleep(20)
+    time.sleep(5)
     level =  driver.find_element_by_class_name("charLevel")
     ascension=driver.find_element_by_id('info').find_element_by_class_name("charGrade")
     equip=driver.find_element_by_id('info').find_element_by_class_name("charEquip")
@@ -55,13 +55,13 @@ for char in data:
     time.sleep(1)
     while True:
         #get data init
-        char["base_stat"]["stat"].append(fetch.get_stat(driver.page_source,int(char["rarity"]),int(ascension.get_attribute("value"))))
+        char["base_stat"]["stat"].append(fetch.get_stat(driver.page_source,int(char["rarity"]),int(ascension.get_attribute("value")),char["faction"]))
         
         while(int(level.get_attribute("value"))<int(max)):
             #while not max lv add the lv and get the data
             level.send_keys(Keys.ARROW_UP)
             
-            char["base_stat"]["stat"].append(fetch.get_stat(driver.page_source,int(char["rarity"]),int(ascension.get_attribute("value"))))
+            char["base_stat"]["stat"].append(fetch.get_stat(driver.page_source,int(char["rarity"]),int(ascension.get_attribute("value")),char["faction"]))
         
         #get value here cc active equipment
         if(int(max)>30):

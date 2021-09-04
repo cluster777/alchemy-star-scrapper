@@ -100,7 +100,7 @@ def get_data(target):
             data.append(tmp)
 
     return data
-def get_stat(target,rarity,asc):
+def get_stat(target,rarity,asc,faction):
     soup=bs(target,'html.parser')
     char_stat=soup.find('div',{'id':'info'}).find('div',{'class':'detailsCol'})
     att=char_stat.find('div',{'class':'ATK'}).find('span').getText()
@@ -111,9 +111,14 @@ def get_stat(target,rarity,asc):
     equiphp=0
     if(asc>0):
         if(rarity>=5):
-            equipatt=30
-            equipdef=10
-            equiphp=50
+            if(faction=='silent hunter'):
+                equipatt=25
+                equipdef=5
+                equiphp=50
+            else:
+                equipatt=30
+                equipdef=10
+                equiphp=50
         else:
             equipatt=25
             equipdef=10
