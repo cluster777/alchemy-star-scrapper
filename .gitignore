@@ -1,4 +1,6 @@
 *.json
+*.webp
+*.png
 __pycache__
 target_files
 target.html
