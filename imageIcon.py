@@ -23,20 +23,39 @@ for char in data:
     print("{filename} {linkname}".format(filename=local_filename,linkname=linkname ))
     if(char["faction"]!="silent hunter"):
         print("standard image")
-        url="https://alchemystars.kloenlansfiel.com/img/alchemy/aurorian/{linkname}.webp".format(linkname=linkname)
-        im = Image.open(requests.get(url, stream=True).raw)
-        im=im.resize((600,600),Image.ANTIALIAS)
-        im.save("./image/"+local_filename+".png",optimize=True,quality=50)
+        while True:
+            try:
+                url="https://alchemystars.kloenlansfiel.com/img/alchemy/aurorian/{linkname}.webp".format(linkname=linkname)
+                im = Image.open(requests.get(url, stream=True,timeout=20).raw)
+                im=im.resize((600,600),Image.ANTIALIAS)
+                im.save("./image/"+local_filename+".png",optimize=True,quality=50)
+            except:
+                print("bruh")
+                continue
+            break
+            
 
     if(char["char_rarity"]!="3"):
         print("A3")
-        url="https://alchemystars.kloenlansfiel.com/img/alchemy/aurorian/{linkname}3.webp".format(linkname=linkname)
-        im = Image.open(requests.get(url, stream=True).raw)
-        im=im.resize((600,600),Image.ANTIALIAS)
-        im.save("./image/"+local_filename+"3.png",optimize=True,quality=50)
-    
-    print("logo")
-    url="https://alchemystars.kloenlansfiel.com/img/alchemy/logo/{linkname}.webp".format(linkname=linkname)
-    im = Image.open(requests.get(url, stream=True).raw)
-    im=im.resize((200,200),Image.ANTIALIAS)
-    im.save("./icon/"+local_filename+".png",optimize=True,quality=50)
+        while True:
+            try:
+                url="https://alchemystars.kloenlansfiel.com/img/alchemy/aurorian/{linkname}3.webp".format(linkname=linkname)
+                im = Image.open(requests.get(url, stream=True,timeout=20).raw)
+                im=im.resize((600,600),Image.ANTIALIAS)
+                im.save("./image/"+local_filename+"3.png",optimize=True,quality=50)
+            except:
+                print("bruh")
+                continue
+            break
+        
+    while True:
+        try:
+            print("logo")
+            url="https://alchemystars.kloenlansfiel.com/img/alchemy/logo/{linkname}.webp".format(linkname=linkname)
+            im = Image.open(requests.get(url, stream=True,timeout=10).raw)
+            im=im.resize((300,150),Image.ANTIALIAS)
+            im.save("./icon/"+local_filename+".png",optimize=True,quality=50)
+        except:
+            print("bruh")
+            continue
+        break
