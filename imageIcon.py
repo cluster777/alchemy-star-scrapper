@@ -3,6 +3,8 @@ import requests
 import json
 import os
 import re
+import imageedit
+
 data=[]
 # make folder called image and another one called icon to make this work
 # this program use PIL to compress the image from kloansfiel to save space and loading problem on website
@@ -42,12 +44,15 @@ for char in data:
             try:
                 url="https://alchemystars.kloenlansfiel.com/img/alchemy/aurorian/{linkname}.webp".format(linkname=linkname)
                 im = Image.open(requests.get(url, stream=True,timeout=20).raw)
-                im=im.resize((600,600),Image.ANTIALIAS)
+                im = imageedit.trim(im)
+                im=im.resize((int(im.width*550/im.height),550),Image.ANTIALIAS)
+                im=imageedit.add_margin(im,0,int((700-im.width)/2),0,int((700-im.width)/2),(0,0,0,0))
                 im.save("./image/"+local_filename+".png",optimize=True,quality=50)
             except:
                 print("bruh")
                 continue
             break
+
             
     #fetch A3 art from kloansfiel site as stated on url 
     if(char["char_rarity"]!="3"):
@@ -56,7 +61,9 @@ for char in data:
             try:
                 url="https://alchemystars.kloenlansfiel.com/img/alchemy/aurorian/{linkname}3.webp".format(linkname=linkname)
                 im = Image.open(requests.get(url, stream=True,timeout=20).raw)
-                im=im.resize((600,600),Image.ANTIALIAS)
+                im = imageedit.trim(im)
+                im=im.resize((int(im.width*550/im.height),550),Image.ANTIALIAS)
+                im=imageedit.add_margin(im,0,int((700-im.width)/2),0,int((700-im.width)/2),(0,0,0,0))
                 im.save("./image/"+local_filename+"3.png",optimize=True,quality=50)
             except:
                 print("bruh")
@@ -70,6 +77,7 @@ for char in data:
             url="https://alchemystars.kloenlansfiel.com/img/alchemy/logo/{linkname}.webp".format(linkname=linkname)
             im = Image.open(requests.get(url, stream=True,timeout=10).raw)
             im=im.resize((300,150),Image.ANTIALIAS)
+            im=imageedit.add_margin(im,75,0,75,0,(0,0,0,0))
             im.save("./icon/"+local_filename+".png",optimize=True,quality=50)
         except:
             print("bruh")
