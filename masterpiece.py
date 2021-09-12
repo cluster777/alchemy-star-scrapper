@@ -1,12 +1,18 @@
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 import time
 import fetch
 import generator
 import re
 import os
 # choose chrome
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'    
+chrome_options.add_argument('user-agent={0}'.format(user_agent))
+chrome_options.add_argument('window-size=1920x1080');
 driver = webdriver.Chrome()
 # slow start
 time.sleep(10)
@@ -29,6 +35,7 @@ for char in data:
     if(char["name"] in finished):
         print("skip {name}".format(name=char["name"]))
         continue
+    print("working on {name}".format(name=char["name"]))
     driver.get("https://vice-as.herokuapp.com/db/"+char["name"])
     time.sleep(5)
     level =  driver.find_element_by_class_name("charLevel")
