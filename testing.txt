@@ -5,19 +5,19 @@
   <div class="uk-width-expand uk-first-column">
    <div class="uk-flex-center uk-flex-left@m uk-grid" uk-grid="">
     <div class="uk-first-column">
-     <img alt="Attack" data-src="/img/icons/atk.webp" src="./kloansfiel_files/atk.webp" style="width:32px; height:32px;"/>
+     <img alt="Attack" data-src="/img/icons/atk.webp" src="/img/icons/atk.webp" style="width:32px; height:32px;"/>
      <span class="uk-text-middle" id="atk">
       2896
      </span>
     </div>
     <div>
-     <img alt="Defense" data-src="/img/icons/def.webp" src="./kloansfiel_files/def.webp" style="width:32px; height:32px;"/>
+     <img alt="Defense" data-src="/img/icons/def.webp" src="/img/icons/def.webp" style="width:32px; height:32px;"/>
      <span class="uk-text-middle" id="def">
       1048
      </span>
     </div>
     <div>
-     <img alt="HP" data-src="/img/icons/hp.webp" src="./kloansfiel_files/hp.webp" style="width:32px; height:32px;"/>
+     <img alt="HP" data-src="/img/icons/hp.webp" src="/img/icons/hp.webp" style="width:32px; height:32px;"/>
      <span class="uk-text-middle" id="hp">
       8960
      </span>
@@ -208,7 +208,7 @@
   <div class="uk-width-1-1 uk-width-1-2@m">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div>
-     <img alt="Piercing Veils" data-src="/img/skills/carleen/active.jpg" height="60px" src="./kloansfiel_files/active.jpg" width="60px"/>
+     <img alt="Piercing Veils" data-src="/img/skills/carleen/active.jpg" height="60px" src="/img/skills/carleen/active.jpg" width="60px"/>
     </div>
     <div>
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -274,7 +274,7 @@
      Range
     </span>
     <div class="range-drop uk-width-auto uk-drop" uk-drop="mode: click; pos: right-center">
-     <img alt="NRowMColSpread90" data-src="/img/range/NRowMColSpread90.webp" id="activeRange" src="./kloansfiel_files/NRowMColSpread90.webp"/>
+     <img alt="NRowMColSpread90" data-src="/img/range/NRowMColSpread90.webp" id="activeRange" src="/img/range/NRowMColSpread90.webp"/>
     </div>
     <span class="skill-badge uk-text-small uk-text-bold uk-text-middle">
      <span class="uk-margin-small-right uk-icon" uk-icon="icon: history; ratio: 0.8">
@@ -313,7 +313,7 @@
   <div class="uk-width-1-1 uk-width-1-2@m">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div>
-     <img alt="Ice Storm" data-src="/img/skills/carleen/chain.jpg" height="60px" src="./kloansfiel_files/chain.jpg" width="60px"/>
+     <img alt="Ice Storm" data-src="/img/skills/carleen/chain.jpg" height="60px" src="/img/skills/carleen/chain.jpg" width="60px"/>
     </div>
     <div>
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -366,7 +366,7 @@
        Range
       </span>
       <div class="range-drop uk-width-auto uk-drop" uk-drop="mode: click; pos: right-center">
-       <img alt="SquareRing10" data-src="/img/range/SquareRing10.webp" id="chainRange0" src="./kloansfiel_files/SquareRing10.webp"/>
+       <img alt="SquareRing10" data-src="/img/range/SquareRing10.webp" id="chainRange0" src="/img/range/SquareRing10.webp"/>
       </div>
       <p id="chainTabDesc0">
        Deals
@@ -407,7 +407,7 @@
        Range
       </span>
       <div class="range-drop uk-width-auto uk-drop" uk-drop="mode: click; pos: right-center">
-       <img alt="Rhombus2" data-src="/img/range/Rhombus2.webp" id="chainRange1" src="./kloansfiel_files/Rhombus2.webp"/>
+       <img alt="Rhombus2" data-src="/img/range/Rhombus2.webp" id="chainRange1" src="/img/range/Rhombus2.webp"/>
       </div>
       <p id="chainTabDesc1">
        Deals
@@ -448,7 +448,7 @@
        Range
       </span>
       <div class="range-drop uk-width-auto uk-drop" uk-drop="mode: click; pos: right-center">
-       <img alt="SuperCross9" data-src="/img/range/SuperCross9.webp" id="chainRange2" src="./kloansfiel_files/SuperCross9.webp"/>
+       <img alt="SuperCross9" data-src="/img/range/SuperCross9.webp" id="chainRange2" src="/img/range/SuperCross9.webp"/>
       </div>
       <p id="chainTabDesc2">
        Deals
@@ -512,7 +512,7 @@
     <h3 class="uk-margin-remove">
      Moon Cocoon
     </h3>
-    <img alt="Moon Cocoon" class="uk-margin-remove uk-align-left@s" data-src="/img/equipment/mooncocoon.webp" height="200px" src="./kloansfiel_files/mooncocoon.webp" width="200px"/>
+    <img alt="Moon Cocoon" class="uk-margin-remove uk-align-left@s" data-src="/img/equipment/mooncocoon.webp" height="200px" src="/img/equipment/mooncocoon.webp" width="200px"/>
     <p>
      This lance was given to Carleen by her father, City Lord Schwartz himself, on the day she became a knight. After countless battles in her capable hands, Carleen's special mark appeared upon it, signifying her complete mastery of this weapon, while also greatly enhancing the power of her lance.
     </p>
@@ -566,7 +566,7 @@
      </span>
     </div>
     <div>
-     <img alt="water" data-src="/img/icons/water.webp" height="32px" src="./kloansfiel_files/water.webp" width="32px"/>
+     <img alt="water" data-src="/img/icons/water.webp" height="32px" src="/img/icons/water.webp" width="32px"/>
      Counter DMG +
      <span id="equipmentCounter">
       30%
@@ -575,7 +575,7 @@
    </div>
    <div class="uk-grid-small uk-margin-top uk-grid uk-grid-stack" uk-grid="">
     <div>
-     <img alt="Ruthless Ice" data-src="/img/skills/carleen/equipment.jpg" height="60px" src="./kloansfiel_files/equipment.jpg" width="60px"/>
+     <img alt="Ruthless Ice" data-src="/img/skills/carleen/equipment.jpg" height="60px" src="/img/skills/carleen/equipment.jpg" width="60px"/>
     </div>
     <div>
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -635,7 +635,7 @@
   <div class="uk-width-1-1 uk-width-1-2@s">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Space Design" data-src="/img/colossus/spacedesign.webp" height="60px" src="./kloansfiel_files/spacedesign.webp" width="60px"/>
+     <img alt="Space Design" data-src="/img/colossus/spacedesign.webp" height="60px" src="/img/colossus/spacedesign.webp" width="60px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -650,7 +650,7 @@
   <div class="uk-width-1-1 uk-width-1-2@s">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Backpacker" data-src="/img/colossus/backpacker.webp" height="60px" src="./kloansfiel_files/backpacker.webp" width="60px"/>
+     <img alt="Backpacker" data-src="/img/colossus/backpacker.webp" height="60px" src="/img/colossus/backpacker.webp" width="60px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -682,7 +682,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -697,7 +697,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -712,7 +712,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -727,7 +727,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -742,7 +742,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -757,7 +757,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -772,7 +772,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -787,7 +787,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -802,7 +802,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -817,7 +817,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -832,7 +832,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -847,7 +847,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -862,7 +862,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+        <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -877,7 +877,7 @@
      <li>
       <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
        <div class="uk-width-auto">
-        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+        <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
        </div>
        <div class="uk-width-expand">
         <h5 class="uk-margin-remove">
@@ -894,7 +894,7 @@
   </div>
   <div aria-expanded="false" style="cursor: pointer" tabindex="0" uk-toggle="target: #group-talk-0">
    <div>
-    <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="./kloansfiel_files/vice.webp" width="60x"/>
+    <img alt="Vice" data-src="/img/thumbnail/vice.webp" height="60px" loading="lazy" src="/img/thumbnail/vice.webp" width="60x"/>
    </div>
   </div>
  </div>
@@ -906,7 +906,7 @@
   <div>
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Blue Sky Panel" data-src="/img/furnitures/blueskypanel.webp" height="120px" src="./kloansfiel_files/blueskypanel.webp" width="120px"/>
+     <img alt="Blue Sky Panel" data-src="/img/furnitures/blueskypanel.webp" height="120px" src="/img/furnitures/blueskypanel.webp" width="120px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -927,7 +927,7 @@
   <div class="uk-width-1-1 uk-width-1-2@s">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Plumesilver" aria-expanded="false" data-src="/img/gifts/plumesilver.webp" height="60px" src="./kloansfiel_files/plumesilver.webp" tabindex="0" title="" uk-tooltip="Plumesilver" width="60px"/>
+     <img alt="Plumesilver" aria-expanded="false" data-src="/img/gifts/plumesilver.webp" height="60px" src="/img/gifts/plumesilver.webp" tabindex="0" title="" uk-tooltip="Plumesilver" width="60px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -946,7 +946,7 @@ Thin, delicate sheet of silver as light as feather. A favorite in Lumopolis.
   <div class="uk-width-1-1 uk-width-1-2@s">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Silver Oak Bell" aria-expanded="false" data-src="/img/gifts/silveroakbell.webp" height="60px" src="./kloansfiel_files/silveroakbell.webp" tabindex="0" title="" uk-tooltip="Silver Oak Bell" width="60px"/>
+     <img alt="Silver Oak Bell" aria-expanded="false" data-src="/img/gifts/silveroakbell.webp" height="60px" src="/img/gifts/silveroakbell.webp" tabindex="0" title="" uk-tooltip="Silver Oak Bell" width="60px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -965,7 +965,7 @@ Compact, light, exquisitely sculpted silver bell believed by sophisticated folks
   <div class="uk-width-1-1 uk-width-1-2@s">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Gilded Lumamber" aria-expanded="false" data-src="/img/gifts/gildedlumamber.webp" height="60px" src="./kloansfiel_files/gildedlumamber.webp" tabindex="0" title="" uk-tooltip="Gilded Lumamber" width="60px"/>
+     <img alt="Gilded Lumamber" aria-expanded="false" data-src="/img/gifts/gildedlumamber.webp" height="60px" src="/img/gifts/gildedlumamber.webp" tabindex="0" title="" uk-tooltip="Gilded Lumamber" width="60px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -984,7 +984,7 @@ Lumamber packaged in gold. The primary gem of high-society Lumopolis.
   <div class="uk-width-1-1 uk-width-1-2@s">
    <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
     <div class="uk-width-auto">
-     <img alt="Daybreak Crystal" aria-expanded="false" data-src="/img/gifts/daybreakcrystal.webp" height="60px" src="./kloansfiel_files/daybreakcrystal.webp" tabindex="0" title="" uk-tooltip="Daybreak Crystal" width="60px"/>
+     <img alt="Daybreak Crystal" aria-expanded="false" data-src="/img/gifts/daybreakcrystal.webp" height="60px" src="/img/gifts/daybreakcrystal.webp" tabindex="0" title="" uk-tooltip="Daybreak Crystal" width="60px"/>
     </div>
     <div class="uk-width-expand">
      <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
@@ -1023,11 +1023,11 @@ Rare ore that shines in different colors under different intensity of light. A p
      </line>
     </svg>
    </button>
-   <img data-src="/img/notes/carleen.jfif" loading="lazy" src="./kloansfiel_files/carleen.jfif"/>
+   <img data-src="/img/notes/carleen.jfif" loading="lazy" src="/img/notes/carleen.jfif"/>
   </div>
  </div>
  <div class="uk-panel uk-text-center uk-text-left@m">
-  <img alt="Logo" class="uk-align-center uk-align-right@m" data-src="/img/logo/carleen.webp" loading="lazy" src="./kloansfiel_files/carleen(1).webp"/>
+  <img alt="Logo" class="uk-align-center uk-align-right@m" data-src="/img/logo/carleen.webp" loading="lazy" src="/img/logo/carleen.webp"/>
   <p class="uk-margin-small">
    <span class="uk-text-bold">
     Name:
@@ -1116,7 +1116,7 @@ Rare ore that shines in different colors under different intensity of light. A p
    She seems to have joined us to explore a certain important secret. She once said: "If you stay in the same place forever, you'll never get close to the truth..." Please forgive me for being curious, but I really want to know what she's so concerned about.
    <br/>
    <br/>
-   â€”Vice
+   —Vice
   </p>
   <h4>
    Her Story (I)
@@ -1191,7 +1191,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -1206,10 +1206,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -1226,7 +1226,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -1241,7 +1241,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -1256,10 +1256,10 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <ul class="uk-accordion" uk-accordion="">
               <li>
-               <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+               <a class="uk-accordion-title uk-padding-remove" href="#">
                 <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
                  <div class="uk-width-auto">
-                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                  </div>
                  <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
                   <h5 class="uk-margin-remove">
@@ -1276,7 +1276,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1291,7 +1291,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1306,7 +1306,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1321,7 +1321,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1336,7 +1336,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1351,7 +1351,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1366,7 +1366,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1381,7 +1381,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1396,7 +1396,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1411,7 +1411,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1426,7 +1426,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1446,10 +1446,10 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <ul class="uk-accordion" uk-accordion="">
               <li>
-               <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+               <a class="uk-accordion-title uk-padding-remove" href="#">
                 <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
                  <div class="uk-width-auto">
-                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                  </div>
                  <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
                   <h5 class="uk-margin-remove">
@@ -1466,7 +1466,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1481,7 +1481,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1496,7 +1496,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1511,7 +1511,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1526,7 +1526,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1541,7 +1541,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1556,7 +1556,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1571,7 +1571,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1586,7 +1586,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1601,7 +1601,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1616,7 +1616,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1641,10 +1641,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -1661,7 +1661,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -1676,7 +1676,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -1691,10 +1691,10 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <ul class="uk-accordion" uk-accordion="">
               <li>
-               <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+               <a class="uk-accordion-title uk-padding-remove" href="#">
                 <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
                  <div class="uk-width-auto">
-                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                  </div>
                  <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
                   <h5 class="uk-margin-remove">
@@ -1711,7 +1711,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1726,7 +1726,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1741,7 +1741,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1756,7 +1756,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1771,7 +1771,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1786,7 +1786,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1801,7 +1801,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1816,7 +1816,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1831,7 +1831,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1846,7 +1846,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1861,7 +1861,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1881,10 +1881,10 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <ul class="uk-accordion" uk-accordion="">
               <li>
-               <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+               <a class="uk-accordion-title uk-padding-remove" href="#">
                 <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
                  <div class="uk-width-auto">
-                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                  <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                  </div>
                  <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
                   <h5 class="uk-margin-remove">
@@ -1901,7 +1901,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1916,7 +1916,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1931,7 +1931,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1946,7 +1946,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1961,7 +1961,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1976,7 +1976,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -1991,7 +1991,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -2006,7 +2006,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -2021,7 +2021,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -2036,7 +2036,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+                    <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -2051,7 +2051,7 @@ Rare ore that shines in different colors under different intensity of light. A p
                  <li>
                   <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
                    <div class="uk-width-auto">
-                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+                    <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
                    </div>
                    <div class="uk-width-expand">
                     <h5 class="uk-margin-remove">
@@ -2098,7 +2098,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2113,7 +2113,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2128,7 +2128,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2143,7 +2143,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2158,7 +2158,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2173,7 +2173,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2188,7 +2188,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2203,7 +2203,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2218,7 +2218,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2233,7 +2233,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2248,7 +2248,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2263,7 +2263,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2300,7 +2300,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2315,7 +2315,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2330,7 +2330,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2345,7 +2345,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2360,7 +2360,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2375,10 +2375,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -2395,7 +2395,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2410,7 +2410,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2425,7 +2425,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2440,7 +2440,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2455,7 +2455,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2470,7 +2470,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2485,7 +2485,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2500,7 +2500,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2520,10 +2520,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -2540,7 +2540,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2555,7 +2555,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2570,7 +2570,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2585,7 +2585,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2600,7 +2600,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2615,7 +2615,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2630,7 +2630,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2645,7 +2645,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -2687,7 +2687,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2702,7 +2702,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2717,7 +2717,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2732,7 +2732,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2747,7 +2747,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2784,7 +2784,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2799,7 +2799,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2814,7 +2814,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2829,7 +2829,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2844,7 +2844,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2881,7 +2881,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2896,7 +2896,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2911,7 +2911,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2926,7 +2926,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2941,7 +2941,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2956,7 +2956,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2971,7 +2971,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -2986,10 +2986,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -3006,7 +3006,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3021,7 +3021,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3036,7 +3036,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3051,7 +3051,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3066,7 +3066,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3086,10 +3086,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -3106,7 +3106,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3121,7 +3121,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3136,7 +3136,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3151,7 +3151,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3166,7 +3166,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3181,7 +3181,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3223,7 +3223,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3238,7 +3238,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+          <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3253,7 +3253,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3268,10 +3268,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -3288,7 +3288,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3303,7 +3303,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3318,7 +3318,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3333,7 +3333,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3348,7 +3348,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3363,7 +3363,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3378,7 +3378,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3393,7 +3393,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3413,10 +3413,10 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <ul class="uk-accordion" uk-accordion="">
          <li>
-          <a class="uk-accordion-title uk-padding-remove" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+          <a class="uk-accordion-title uk-padding-remove" href="#">
            <div class="uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
             <div class="uk-width-auto">
-             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+             <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
             </div>
             <div class="uk-width-expand uk-padding-small uk-padding-remove-top">
              <h5 class="uk-margin-remove">
@@ -3433,7 +3433,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3448,7 +3448,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3463,7 +3463,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3478,7 +3478,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3493,7 +3493,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3508,7 +3508,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3523,7 +3523,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="./kloansfiel_files/navigator.webp" width="60x"/>
+               <img alt="Navigator" data-src="/img/thumbnail/navigator.webp" height="60px" loading="lazy" src="/img/thumbnail/navigator.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3538,7 +3538,7 @@ Rare ore that shines in different colors under different intensity of light. A p
             <li>
              <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
               <div class="uk-width-auto">
-               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+               <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
               </div>
               <div class="uk-width-expand">
                <h5 class="uk-margin-remove">
@@ -3580,7 +3580,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3595,7 +3595,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3610,7 +3610,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3625,7 +3625,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3640,7 +3640,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3655,7 +3655,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3670,7 +3670,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3685,7 +3685,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3700,7 +3700,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3715,7 +3715,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3730,7 +3730,7 @@ Rare ore that shines in different colors under different intensity of light. A p
        <li>
         <div class="uk-grid-small uk-grid uk-grid-stack" uk-grid="">
          <div class="uk-width-auto">
-          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="./kloansfiel_files/carleen.webp" width="60x"/>
+          <img alt="Carleen" data-src="/img/thumbnail/carleen.webp" height="60px" loading="lazy" src="/img/thumbnail/carleen.webp" width="60x"/>
          </div>
          <div class="uk-width-expand">
           <h5 class="uk-margin-remove">
@@ -3756,7 +3756,7 @@ Rare ore that shines in different colors under different intensity of light. A p
   <ul class="uk-list uk-list-divider">
    <li class="uk-text-center">
     <div class="uk-inline">
-     <img class="uk-border-rounded" data-src="/img/story/spirit_story_21300.webp" src="./kloansfiel_files/spirit_story_21300.webp" style="min-height: 110px" width="489px"/>
+     <img class="uk-border-rounded" data-src="/img/story/spirit_story_21300.webp" src="/img/story/spirit_story_21300.webp" style="min-height: 110px" width="489px"/>
      <div class="uk-position-cover uk-overlay-primary">
       <div class="uk-position-center">
        <h4>
@@ -3774,7 +3774,7 @@ Rare ore that shines in different colors under different intensity of light. A p
    </li>
    <li class="uk-text-center">
     <div class="uk-inline">
-     <img class="uk-border-rounded" data-src="/img/story/spirit_1600061_video.webp" src="./kloansfiel_files/spirit_1600061_video.webp" style="min-height: 110px" width="489px"/>
+     <img class="uk-border-rounded" data-src="/img/story/spirit_1600061_video.webp" src="/img/story/spirit_1600061_video.webp" style="min-height: 110px" width="489px"/>
      <div class="uk-position-cover uk-overlay-primary">
       <div class="uk-position-center">
        <h4>
@@ -3792,7 +3792,7 @@ Rare ore that shines in different colors under different intensity of light. A p
    </li>
    <li class="uk-text-center">
     <div class="uk-inline">
-     <img class="uk-border-rounded" data-src="/img/story/spirit_1600063_video.webp" src="./kloansfiel_files/spirit_1600063_video.webp" style="min-height: 110px" width="489px"/>
+     <img class="uk-border-rounded" data-src="/img/story/spirit_1600063_video.webp" src="/img/story/spirit_1600063_video.webp" style="min-height: 110px" width="489px"/>
      <div class="uk-position-cover uk-overlay-primary">
       <div class="uk-position-center">
        <h4>
@@ -3817,7 +3817,7 @@ Rare ore that shines in different colors under different intensity of light. A p
  <div class="scrollable-section">
   <ul class="uk-accordion" uk-accordion="multiple: true">
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Aircraft Click
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -3986,7 +3986,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Aircraft Interact
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4011,7 +4011,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Appointment
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4036,7 +4036,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Battle Fail
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4061,7 +4061,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Battle Succeed
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4086,7 +4086,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Chain Skill
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4129,7 +4129,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Charge
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4154,7 +4154,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      First Main Lobby Welcome
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4179,7 +4179,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Formation
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4204,7 +4204,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Grade 1 Up
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4229,7 +4229,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Grade 2 Up
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4254,7 +4254,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Grade 3 Up
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4279,7 +4279,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Leisure
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4304,7 +4304,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Level Up
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4329,7 +4329,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Login Voice
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4354,7 +4354,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Main Lobby Interact
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4577,7 +4577,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Main Lobby Welcome
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4656,7 +4656,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Obtain
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4681,7 +4681,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Receive Gift
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4724,7 +4724,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Receive Love Gift
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4767,7 +4767,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Skill
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4810,7 +4810,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Stand By
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4835,7 +4835,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Story 1
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4860,7 +4860,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Story 2
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4885,7 +4885,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Story 3
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4910,7 +4910,7 @@ Rare ore that shines in different colors under different intensity of light. A p
     </div>
    </li>
    <li>
-    <a class="uk-accordion-title" href="https://alchemystars.kloenlansfiel.com/aurorian/Carleen#">
+    <a class="uk-accordion-title" href="#">
      Team Leader Appear
     </a>
     <div class="uk-accordion-content" hidden="">
@@ -4946,15 +4946,15 @@ Rare ore that shines in different colors under different intensity of light. A p
     Sea Breeze
    </h3>
    <div class="uk-flex-center uk-flex-left@s uk-grid-collapse uk-grid uk-grid-stack" uk-grid="">
-    <img alt="Sea Breeze" data-src="/img/thumbnail/seabreeze.webp" loading="lazy" src="./kloansfiel_files/seabreeze.webp"/>
+    <img alt="Sea Breeze" data-src="/img/thumbnail/seabreeze.webp" loading="lazy" src="/img/thumbnail/seabreeze.webp"/>
     <div class="uk-padding-small" id="skin-showcase">
      <div>
-      <a class="uk-width-expand live2d-skin uk-button-small uk-button-default uk-button" data-caption="Sea Breeze" data-type="iframe" href="https://alchemystars.kloenlansfiel.com/live2d/seabreeze">
+      <a class="uk-width-expand live2d-skin uk-button-small uk-button-default uk-button" data-caption="Sea Breeze" data-type="iframe" href="/live2d/seabreeze">
        Live2D
       </a>
      </div>
      <div class="uk-margin-small-top">
-      <a class="uk-width-expand full-art-skin uk-button-small uk-button-default uk-button" data-caption="Sea Breeze" href="https://alchemystars.kloenlansfiel.com/img/aurorian/seabreeze.webp">
+      <a class="uk-width-expand full-art-skin uk-button-small uk-button-default uk-button" data-caption="Sea Breeze" href="/img/aurorian/seabreeze.webp">
        <span class="uk-icon" uk-icon="camera">
         <svg height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
          <circle cx="10" cy="10.8" fill="none" r="3.8" stroke="#000" stroke-width="1.1">
