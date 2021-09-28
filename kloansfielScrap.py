@@ -22,6 +22,8 @@ import os
 # chrome_options.add_argument('window-size=1920x1080');
 # driver = webdriver.Chrome(options=chrome_options)
 # driver.get("https://alchemystars.kloenlansfiel.com/aurorian/Carleen")
+# soup=bs(driver.page_source,'html.parser')
+# driver.close()
 with open("../web_download/kloansfiel.html") as f:
     target=f.read()
 
@@ -94,23 +96,48 @@ files_p=files.find_all('p')
 files_h=files.find_all('h4')
 data=[]
 for i in range(len(files_p)):
-    data.append({files_h[i].getText(),files_p[i].getText()})
+    data.append({'file_name':files_h[i].getText(),'files':files_p[i].getText()})
 
 for dat in data:
-    print(dat)
+    print(dat['file_name'])
+    print(dat['files'])
 
 # tab 7 => terminal
-    # all of it
+# terminal=tabs[7]
+# chat_base=terminal.find_all('ul',{'class':'uk-list uk-list-divider'})
+# terminalData=[]
+# for chat in chat_base:
+#     tmp={}
+#     #get the starting dialog
+#     li_all=chat.find_all('li',recursive=False)
+#     tmp["start"]=[]
+#     for li in li_all:
+#         tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+#     ul_all=chat.find_all('ul',{'class':'uk-accordion'})
+#     tmp["branch"]=chat.find_all('ul',{'class':'uk-accordion-content'},recursive=False)
+#     tmp["chatlist"]=[]
+#     for ula in ul_all:
+#         #register the chat with the same format
+#         ttmp={}
+#         li_all=ula.find_all('li',recursive=False)
+#         ttmp["start"]=[]
+#         for li in li_all:
+#             ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+#         ul_all=ula.find_all('ul',{'class':'uk-accordion'})
+#         ttmp["branch"]=ula.find_all('ul',{'class':'uk-accordion'},recursive=False)
+#         tmp['chatlist'].append(ttmp)
+#     terminalData.append(tmp)
+# for tem in terminalData:
+#     print(tem)
 # tab 8 => story
     # all of it
 # tab 9 => voice
     # all of it
 # tab 10 => skin(optional only one who have skin)
     # all of it
-with open('./testing.txt','w') as x:
-    i=0
-    for tab in tabs:
-        x.write('----{count}-----\n\n'.format(count=i))
-        i+=1
-        x.write(tab.prettify())
-driver.close()
+# with open('./testing.txt','w') as x:
+#     i=0
+#     for tab in tabs:
+#         x.write('----{count}-----\n\n'.format(count=i))
+#         i+=1
+#         x.write(tab.prettify())
