@@ -103,32 +103,45 @@ for dat in data:
     print(dat['files'])
 
 # tab 7 => terminal
-# terminal=tabs[7]
-# chat_base=terminal.find_all('ul',{'class':'uk-list uk-list-divider'})
-# terminalData=[]
-# for chat in chat_base:
-#     tmp={}
-#     #get the starting dialog
-#     li_all=chat.find_all('li',recursive=False)
-#     tmp["start"]=[]
-#     for li in li_all:
-#         tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-#     ul_all=chat.find_all('ul',{'class':'uk-accordion'})
-#     tmp["branch"]=chat.find_all('ul',{'class':'uk-accordion-content'},recursive=False)
-#     tmp["chatlist"]=[]
-#     for ula in ul_all:
-#         #register the chat with the same format
-#         ttmp={}
-#         li_all=ula.find_all('li',recursive=False)
-#         ttmp["start"]=[]
-#         for li in li_all:
-#             ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-#         ul_all=ula.find_all('ul',{'class':'uk-accordion'})
-#         ttmp["branch"]=ula.find_all('ul',{'class':'uk-accordion'},recursive=False)
-#         tmp['chatlist'].append(ttmp)
-#     terminalData.append(tmp)
-# for tem in terminalData:
-#     print(tem)
+terminal=tabs[7]
+chat_base=terminal.find_all('div',{'id':re.compile('terminal-\d+')})
+terminalData=[]
+for chat in chat_base:
+    tmp={}
+    #get the starting dialog
+    li_all=chat.find_next('ul')
+    li_all=li_all.find_all('li',recursive=False)
+    tmp["start"]=[]
+    tmp["branch"]=[]
+    for li in li_all:
+        if(not li.find('ul')):
+            tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+            print(tmp['start'][-1])
+        else:
+            #use recursive to find the other
+            tmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+            print("branched")
+            print(tmp['branch'][-1])
+    ul_all=chat.find_all('ul')
+    ul_all=ul_all[1:]
+    tmp["chatlist"]=[]
+    for ula in ul_all:
+        ttmp={}
+        li_all=ula.find_all('li',recursive=False)
+        ttmp["start"]=[]
+        ttmp["branch"]=[]
+        for li in li_all:
+            if(not li.find('ul')):
+                ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+                print(ttmp['start'][-1])
+            else:
+                #use recursive to find the other
+                ttmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+                print("branched")
+                print(ttmp['branch'][-1])
+        tmp['chatlist'].append(ttmp)
+    terminalData.append(tmp)
+
 # tab 8 => story
     # all of it
 # tab 9 => voice
