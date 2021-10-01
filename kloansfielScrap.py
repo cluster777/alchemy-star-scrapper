@@ -3,7 +3,7 @@ import re
 from PIL import Image
 import requests
 import json
-
+import imageedit
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -171,8 +171,17 @@ if(skins):
         skin_data.append({'name':name[i].getText(),'description':description[i].getText()})
         url=img[i]['href']
         print(url)
-        im = Image.open(requests.get(url, stream=True,timeout=20).raw)
-        im.save("./equip/"+skin_data[i]['name']+".png",optimize=True,quality=50)
+        while(True):
+            try:
+                im = Image.open(requests.get(url, stream=True,timeout=20).raw)
+                im = imageedit.trim(im)
+                im=im.resize((int(im.width*550/im.height),550),Image.ANTIALIAS)
+                im=imageedit.add_margin(im,0,int((700-im.width)/2),0,int((700-im.width)/2),(0,0,0,0))
+                im.save("./image/"+skin_data[i]['name']+".png",optimize=True,quality=50)
+            except:
+                print("bruh")
+                continue
+            break
         print(skin_data[i])
 # with open('./testing.txt','w') as x:
 #     i=0
