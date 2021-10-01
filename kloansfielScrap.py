@@ -118,13 +118,13 @@ for chat in chat_base:
             tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
             print(tmp['start'][-1])
         else:
-            #use recursive to find the other
             tmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
             print("branched")
             print(tmp['branch'][-1])
     ul_all=chat.find_all('ul')
     ul_all=ul_all[1:]
     tmp["chatlist"]=[]
+    #get all the reply with their respective branches
     for ula in ul_all:
         ttmp={}
         li_all=ula.find_all('li',recursive=False)
@@ -135,7 +135,6 @@ for chat in chat_base:
                 ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
                 print(ttmp['start'][-1])
             else:
-                #use recursive to find the other
                 ttmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
                 print("branched")
                 print(ttmp['branch'][-1])
@@ -143,11 +142,38 @@ for chat in chat_base:
     terminalData.append(tmp)
 
 # tab 8 => story
+# need javascript will be implemented another time
     # all of it
 # tab 9 => voice
+voice=tabs[9]
+title_all=voice.find_all('h5')
+content_all=voice.find_all('div',{'class':'uk-width-expand'})
+voice_res=[]
+for i in range(len(title_all)):
+    voice_res.append({'title':title_all[i].getText(),'content':content_all[i].getText()})
+    print(voice_res[i])
     # all of it
 # tab 10 => skin(optional only one who have skin)
+try:
+    skins=tabs[10]   
+except:
+    print("no skins")
+skin_data=[]
+if(skins):
+    #skin name
+    name=skins.find_all('h3')
+    #skin description
+    description=skins.find_all('p')
+    #skin skins
+    img=skins.find_all('a',{'class':'full-art-skin'})
     # all of it
+    for i in range(len(name)):
+        skin_data.append({'name':name[i].getText(),'description':description[i].getText()})
+        url=img[i]['href']
+        print(url)
+        im = Image.open(requests.get(url, stream=True,timeout=20).raw)
+        im.save("./equip/"+skin_data[i]['name']+".png",optimize=True,quality=50)
+        print(skin_data[i])
 # with open('./testing.txt','w') as x:
 #     i=0
 #     for tab in tabs:
