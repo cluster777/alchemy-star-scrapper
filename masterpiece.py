@@ -7,6 +7,7 @@ import fetch
 import generator
 import re
 import os
+import sys
 # choose chrome
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -35,24 +36,41 @@ for char in data:
     if(char["name"] in finished):
         print("skip {name}".format(name=char["name"]))
         continue
-    print("working on {name}".format(name=char["name"]))
-    driver.get("https://vice-as.herokuapp.com/db/"+char["name"])
-    time.sleep(5)
-    level =  driver.find_element_by_class_name("charLevel")
-    ascension=driver.find_element_by_id('info').find_element_by_class_name("charGrade")
-    equip=driver.find_element_by_id('info').find_element_by_class_name("charEquip")
-    move = ActionChains(driver)
-    
-    driver.execute_script("document.getElementsByClassName(\"charLevel\")[0].value=2")
-    if(char["faction"]!="silent hunter"):
-        driver.execute_script("document.getElementById('info').getElementsByClassName(\"charGrade\")[0].value=1")
-        ascension.send_keys(Keys.LEFT)
-    else:
-        while int(equip.get_attribute("value"))>1:
-            equip.send_keys(Keys.LEFT)
-    time.sleep(1)
-    level.send_keys(Keys.LEFT)
-    max=level.get_attribute("max")
+    if not char["name"]:
+        print("all done")
+        break
+    while True:
+        try:
+            
+            print("working on {name}".format(name=char["name"]))
+            driver.get("https://vice-as.herokuapp.com/db/"+char["name"])
+            time.sleep(5)
+            level =  driver.find_element_by_class_name("charLevel")
+            ascension=driver.find_element_by_id('info').find_element_by_class_name("charGrade")
+            equip=driver.find_element_by_id('info').find_element_by_class_name("charEquip")
+            # affinity=driver.find_element_by_id('info').find_element_by_class_name("charAffinity")
+            move = ActionChains(driver)
+            
+            driver.execute_script("document.getElementsByClassName(\"charLevel\")[0].value=2")
+            if(char["faction"]!="silent hunter"):
+                driver.execute_script("document.getElementById('info').getElementsByClassName(\"charGrade\")[0].value=1")
+                ascension.send_keys(Keys.LEFT)
+            else:
+                while int(equip.get_attribute("value"))>1:
+                    equip.send_keys(Keys.LEFT)
+            time.sleep(1)
+            # while int(affinity.get_attribute("value"))>1:
+            #     affinity.send_keys(Keys.LEFT)
+
+            level.send_keys(Keys.LEFT)
+            max=level.get_attribute("max")
+        except KeyboardInterrupt:
+            print("interupt")
+            break
+        except:
+            print("bruh")
+            continue
+        break
     print("t")
     char["base_stat"]={}
     char["base_stat"]["stat"]=[]

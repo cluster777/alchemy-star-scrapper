@@ -56,8 +56,23 @@ print(collosus_span[0].getText())
 # skill 2
 print(collosus_h[1].getText())
 print(collosus_span[1].getText())
-    # conversation if available dynamic?
+    
+conversation=collosus.find_all('ul')
+for ul in conversation:
+    talk=ul.find_all('h5')
+    speech=ul.find_all('p')
+    for i in range(len(talk)):
+        print("{t}{s}".format(t=talk[i].getText(),s=speech[i].getText()))
+
+# try:
+#     # conversation if available dynamic?
+    
+# except:
+#     print("no conversation here")
     # furniture if available dynamic?
+for i in range(len(collosus_h[4:])):
+    print(collosus_h[i+4].getText())
+    print(collosus_span[i+2].getText())
 # tab 4 => gift
 gift=tabs[4]
 # find the tag and list it as needed
@@ -98,9 +113,9 @@ data=[]
 for i in range(len(files_p)):
     data.append({'file_name':files_h[i].getText(),'files':files_p[i].getText()})
 
-for dat in data:
-    print(dat['file_name'])
-    print(dat['files'])
+# for dat in data:
+#     print(dat['file_name'])
+#     print(dat['files'])
 
 # tab 7 => terminal
 terminal=tabs[7]
@@ -133,11 +148,11 @@ for chat in chat_base:
         for li in li_all:
             if(not li.find('ul')):
                 ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                print(ttmp['start'][-1])
+                # print(ttmp['start'][-1])
             else:
                 ttmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                print("branched")
-                print(ttmp['branch'][-1])
+                # print("branched")
+                # print(ttmp['branch'][-1])
         tmp['chatlist'].append(ttmp)
     terminalData.append(tmp)
 
@@ -151,7 +166,7 @@ content_all=voice.find_all('div',{'class':'uk-width-expand'})
 voice_res=[]
 for i in range(len(title_all)):
     voice_res.append({'title':title_all[i].getText(),'content':content_all[i].getText()})
-    print(voice_res[i])
+    # print(voice_res[i])
     # all of it
 # tab 10 => skin(optional only one who have skin)
 try:
