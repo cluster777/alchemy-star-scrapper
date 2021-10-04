@@ -130,44 +130,7 @@ def get_chardata(charname):
     #     print(dat['files'])
 
     # tab 7 => terminal
-    terminal=tabs[7]
-    chat_base=terminal.find_all('div',{'id':re.compile('terminal-\d+')})
-    terminalData=[]
-    for chat in chat_base:
-        tmp={}
-        #get the starting dialog
-        li_all=chat.find_next('ul')
-        li_all=li_all.find_all('li',recursive=False)
-        tmp["start"]=[]
-        tmp["branch"]=[]
-        for li in li_all:
-            if(not li.find('ul')):
-                tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                print(tmp['start'][-1])
-            else:
-                tmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                print("branched")
-                print(tmp['branch'][-1])
-        ul_all=chat.find_all('ul')
-        ul_all=ul_all[1:]
-        tmp["chatlist"]=[]
-        #get all the reply with their respective branches
-        for ula in ul_all:
-            ttmp={}
-            li_all=ula.find_all('li',recursive=False)
-            ttmp["start"]=[]
-            ttmp["branch"]=[]
-            for li in li_all:
-                if(not li.find('ul')):
-                    ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                    # print(ttmp['start'][-1])
-                else:
-                    ttmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                    # print("branched")
-                    # print(ttmp['branch'][-1])
-            tmp['chatlist'].append(ttmp)
-        terminalData.append(tmp)
-    chardata['terminal']=terminalData
+    # another javascript problem at least he give me Api Link
     # tab 8 => story
     # need javascript will be implemented another time
         # all of it
@@ -177,8 +140,8 @@ def get_chardata(charname):
     content_all=voice.find_all('div',{'class':'uk-width-expand'})
     print(title_all)
     voice_res=[]
-    for i in range(len(title_all)):
-        voice_res.append({'title':title_all[i].getText(),'content':content_all[i].getText()})
+    for i in range(len(content_all)):
+        voice_res.append(content_all[i].getText())
         
     chardata['voice']=voice_res
     # tab 10 => skin(optional only one who have skin)
