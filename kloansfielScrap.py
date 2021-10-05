@@ -142,53 +142,55 @@ def get_chardata(charname):
         return
     # tab 7 => terminal
     # he makes API for this one not much different per se
-    terminal=tabs[7]
-    # get all button
-    chat_button=terminal.find_all('button')
-    terminalData=[]
-    for butt in chat_button:
-        #get the api host then fetch the chat data
-        url=butt['onclick']
-        url=re.search('\'(.*)\'',url).group(1)
-        print(url)
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.get("https://alchemystars.kloenlansfiel.com"+url)
-        terminal=bs(driver.page_source,'html.parser')
-        driver.close()
-        tmp={}
-        #get the starting dialog
-        li_all=terminal.find('ul')
-        li_all=li_all.find_all('li',recursive=False)
-        tmp["start"]=[]
-        tmp["branch"]=[]
-        for li in li_all:
-            if(not li.find('ul')):
-                tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                print(tmp['start'][-1])
-            else:
-                tmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                print("branched")
-                print(tmp['branch'][-1])
-        ul_all=terminal.find_all('ul')
-        ul_all=ul_all[1:]
-        tmp["chatlist"]=[]
-        #get all the reply with their respective branches
-        for ula in ul_all:
-            ttmp={}
-            li_all=ula.find_all('li',recursive=False)
-            ttmp["start"]=[]
-            ttmp["branch"]=[]
+    noTerminal=['Nails']
+    if(charname not in noTerminal):
+        terminal=tabs[7]
+        # get all button
+        chat_button=terminal.find_all('button')
+        terminalData=[]
+        for butt in chat_button:
+            #get the api host then fetch the chat data
+            url=butt['onclick']
+            url=re.search('\'(.*)\'',url).group(1)
+            print(url)
+            driver = webdriver.Chrome(options=chrome_options)
+            driver.get("https://alchemystars.kloenlansfiel.com"+url)
+            terminal=bs(driver.page_source,'html.parser')
+            driver.close()
+            tmp={}
+            #get the starting dialog
+            li_all=terminal.find('ul')
+            li_all=li_all.find_all('li',recursive=False)
+            tmp["start"]=[]
+            tmp["branch"]=[]
             for li in li_all:
                 if(not li.find('ul')):
-                    ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                    print(ttmp['start'][-1])
+                    tmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+                    print(tmp['start'][-1])
                 else:
-                    ttmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
-                    # print("branched")
-                    print(ttmp['branch'][-1])
-            tmp['chatlist'].append(ttmp)
-        terminalData.append(tmp)
-    # chardata['terminal']=terminalData
+                    tmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+                    print("branched")
+                    print(tmp['branch'][-1])
+            ul_all=terminal.find_all('ul')
+            ul_all=ul_all[1:]
+            tmp["chatlist"]=[]
+            #get all the reply with their respective branches
+            for ula in ul_all:
+                ttmp={}
+                li_all=ula.find_all('li',recursive=False)
+                ttmp["start"]=[]
+                ttmp["branch"]=[]
+                for li in li_all:
+                    if(not li.find('ul')):
+                        ttmp["start"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+                        print(ttmp['start'][-1])
+                    else:
+                        ttmp["branch"].append({'name':li.find('h5').getText(),'content':li.find('p').getText()})
+                        # print("branched")
+                        print(ttmp['branch'][-1])
+                tmp['chatlist'].append(ttmp)
+            terminalData.append(tmp)
+        # chardata['terminal']=terminalData
 
     # tab 8 => story
     # need javascript will be implemented another time
