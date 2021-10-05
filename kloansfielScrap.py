@@ -90,8 +90,9 @@ def get_chardata(charname):
     # find the tag and list it as needed
     gift_list=gift.find_all('p')
     data=[]
-    for gf in gift_list:
-        if(re.search("given to (.*)\.",gf.getText()).group(1) not in data):
+    for gf in gift_list[:2]:
+        print(gf)
+        if(re.search("given to (.* )",gf.getText()).group(1) not in data):
             data.append(re.search("given to (.*)\.",gf.getText()).group(1))
     chardata['gift']=data
     # tab 5 => profile
@@ -128,7 +129,17 @@ def get_chardata(charname):
     # for dat in data:
     #     print(dat['file_name'])
     #     print(dat['files'])
-
+    legendary=['Frostfire','Regal','Mythos','Requiem']
+    if(charname in legendary):
+        voice=tabs[7]
+        content_all=voice.find_all('div',{'class':'uk-width-expand'})
+        voice_res=[]
+        for i in range(len(content_all)):
+            voice_res.append(content_all[i].getText())
+        chardata['voice']=voice_res
+        with open('./json/{charname}.json'.format(charname=charname),'w') as x:
+            json.dump(chardata, x, indent = 1)
+        return
     # tab 7 => terminal
     # he makes API for this one not much different per se
     terminal=tabs[7]
@@ -177,7 +188,7 @@ def get_chardata(charname):
                     print(ttmp['branch'][-1])
             tmp['chatlist'].append(ttmp)
         terminalData.append(tmp)
-    chardata['terminal']=terminalData
+    # chardata['terminal']=terminalData
 
     # tab 8 => story
     # need javascript will be implemented another time
@@ -222,7 +233,7 @@ def get_chardata(charname):
                 maxIndex=max(int(aIndex),int(maxIndex))
             storyData['chat'].append({'chat':chat,'branch':branch})
             j+=1
-        chardata['story'].append(storyData)
+        # chardata['story'].append(storyData)
     driver.close()
         # it will result in [] with index of the last url
         
@@ -238,7 +249,7 @@ def get_chardata(charname):
         
     chardata['voice']=voice_res
     # tab 10 => skin(optional only one who have skin)
-
+    skins=None
     try:
         skins=tabs[10]   
     except:
@@ -270,5 +281,11 @@ def get_chardata(charname):
                 break
         chardata['skins']=skin_data
 
-    with open('./testing.json','w') as x:
-        json.dump(chardata, x, indent = 6)
+    with open('./json/{charname}.json'.format(charname=charname),'w') as x:
+        json.dump(chardata, x, indent = 1)
+    with open('./json/{charname}story.json'.format(charname=charname),'w') as x:
+        json.dump(storyData, x, indent = 1)
+    with open('./json/{charname}terminal.json'.format(charname=charname),'w') as x:
+        json.dump(terminalData, x, indent = 1)
+    # storyData
+    # terminalData

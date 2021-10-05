@@ -4,7 +4,7 @@ import json
 import os
 import re
 import imageedit
-
+import kloansfielScrap
 data=[]
 # make folder called image and another one called icon to make this work
 # this program use PIL to compress the image from kloansfiel to save space and loading problem on website
@@ -25,7 +25,7 @@ for char in data:
     if(char["char_name"].lower() in finished):
         print("skip {name}".format(name=char["char_name"]))
         continue
-
+    kloansfielScrap.get_chardata(char["char_name"])
     #special case and naming convention of kloansfiel site
     local_filename=char["char_name"].lower()
     linkname=local_filename
