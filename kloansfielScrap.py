@@ -194,7 +194,11 @@ def get_chardata(charname):
 
     # tab 8 => story
     # need javascript will be implemented another time
-    story=tabs[8]
+    
+    if(charname in noTerminal):
+        story=tabs[7]
+    else:
+        story=tabs[8]
     story=story.find('ul')
     story=story.find_all('li')
     chardata['story']=[]
@@ -243,7 +247,10 @@ def get_chardata(charname):
         # every page have a to navigation and it continue without any key before
 
     # tab 9 => voice
-    voice=tabs[9]
+    if(charname in noTerminal):
+        voice=tabs[8]
+    else:
+        voice=tabs[9]
     content_all=voice.find_all('div',{'class':'uk-width-expand'})
     voice_res=[]
     for i in range(len(content_all)):
@@ -253,7 +260,10 @@ def get_chardata(charname):
     # tab 10 => skin(optional only one who have skin)
     skins=None
     try:
-        skins=tabs[10]   
+        if(charname in noTerminal):
+            skins=tabs[9]
+        else:
+            skins=tabs[10]   
     except:
         print("no skins")
     skin_data=[]
