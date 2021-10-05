@@ -297,7 +297,8 @@ def get_chardata(charname):
         json.dump(chardata, x, indent = 1)
     with open('./json/{charname}story.json'.format(charname=charname),'w') as x:
         json.dump(storyData, x, indent = 1)
-    with open('./json/{charname}terminal.json'.format(charname=charname),'w') as x:
-        json.dump(terminalData, x, indent = 1)
+    if(charname not in noTerminal):
+        with open('./json/{charname}terminal.json'.format(charname=charname),'w') as x:
+            json.dump(terminalData, x, indent = 1)
     # storyData
     # terminalData
