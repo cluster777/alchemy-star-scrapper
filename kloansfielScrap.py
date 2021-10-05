@@ -159,8 +159,12 @@ def get_chardata(charname):
             driver.close()
             tmp={}
             #get the starting dialog
-            li_all=terminal.find('ul')
-            li_all=li_all.find_all('li',recursive=False)
+            try:
+                li_all=terminal.find('ul')
+                li_all=li_all.find_all('li',recursive=False)
+            except:
+                print('internalError')
+                continue
             tmp["start"]=[]
             tmp["branch"]=[]
             for li in li_all:
@@ -194,7 +198,7 @@ def get_chardata(charname):
 
     # tab 8 => story
     # need javascript will be implemented another time
-    noStory=['Chandra','Alice','Lilliam','Ansia','Sylva','Korgon','Chainsaw Rick','Pepi','White Dwarf','Unimet','Leah','Clover','Eho']
+    noStory=['Chandra','Alice','Lilliam','Ansia','Sylva','Wendy','Lester','Jola','Pasolo','Korgon','Chainsaw Rick','Pepi','White Dwarf','Unimet','Leah','Clover','Eho']
     if(charname not in noStory):
         if(charname in noTerminal):
             story=tabs[7]
