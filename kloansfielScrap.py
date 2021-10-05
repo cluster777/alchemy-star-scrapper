@@ -194,60 +194,63 @@ def get_chardata(charname):
 
     # tab 8 => story
     # need javascript will be implemented another time
-    
-    if(charname in noTerminal):
-        story=tabs[7]
-    else:
-        story=tabs[8]
-    story=story.find('ul')
-    story=story.find_all('li')
-    chardata['story']=[]
-    for li in story:
-        storyData={}  
-        # title 
-        storyData['title']=li.find('h4').getText()
-        # header
-        print()
-        storyData['header']=li.find('p').getText()
-        url=li.find('button')['onclick']
-        # the chat
-        baseurl=re.search('\'(.*)\'',url).group(1)
-        baseurl=re.search('(.*\/)\d+',baseurl).group(1)
-        maxIndex=0
-        j=0
-        storyData['chat']=[]
-        while(j<=maxIndex):
-            print(j,maxIndex)
-            driver = webdriver.Chrome(options=chrome_options)
-            driver.get("https://alchemystars.kloenlansfiel.com"+baseurl+str(j))
-            terminal=bs(driver.page_source,'html.parser')
-            h5_all=terminal.find_all('h5')
-            p_all=terminal.find_all('p')
-            a_all=terminal.find_all('a')
-            chat=[]
-            branch=[]
-            #now we have the terminal of the last one so... get each char name + dialogue
-            for i in range(len(p_all)):
-                chat.append({'char':h5_all[i].getText(),'dialogue':p_all[i].getText()})
-            # last get the branch and the link
-            for a in a_all:
-                aIndex=re.search('\'(.*)\'',a['onclick']).group(1)
-                print(aIndex)
-                aIndex=re.search('.*\/(\d+)$',aIndex).group(1)
-                print(aIndex)
-                branch.append({'text':a.getText(),'link':aIndex})
-                maxIndex=max(int(aIndex),int(maxIndex))
-            storyData['chat'].append({'chat':chat,'branch':branch})
-            j+=1
-        # chardata['story'].append(storyData)
-    driver.close()
+    noStory=['Chandra','Alice','Lilliam','Ansia','Sylva','Korgon','Chainsaw Rick','Pepi','White Dwarf','Unimet','Leah','Clover','Eho']
+    if(charname not in noStory):
+        if(charname in noTerminal):
+            story=tabs[7]
+        else:
+            story=tabs[8]
+        story=story.find('ul')
+        story=story.find_all('li')
+        chardata['story']=[]
+        for li in story:
+            storyData={}  
+            # title 
+            storyData['title']=li.find('h4').getText()
+            # header
+            print()
+            storyData['header']=li.find('p').getText()
+            url=li.find('button')['onclick']
+            # the chat
+            baseurl=re.search('\'(.*)\'',url).group(1)
+            baseurl=re.search('(.*\/)\d+',baseurl).group(1)
+            maxIndex=0
+            j=0
+            storyData['chat']=[]
+            while(j<=maxIndex):
+                print(j,maxIndex)
+                driver = webdriver.Chrome(options=chrome_options)
+                driver.get("https://alchemystars.kloenlansfiel.com"+baseurl+str(j))
+                terminal=bs(driver.page_source,'html.parser')
+                h5_all=terminal.find_all('h5')
+                p_all=terminal.find_all('p')
+                a_all=terminal.find_all('a')
+                chat=[]
+                branch=[]
+                #now we have the terminal of the last one so... get each char name + dialogue
+                for i in range(len(p_all)):
+                    chat.append({'char':h5_all[i].getText(),'dialogue':p_all[i].getText()})
+                # last get the branch and the link
+                for a in a_all:
+                    aIndex=re.search('\'(.*)\'',a['onclick']).group(1)
+                    print(aIndex)
+                    aIndex=re.search('.*\/(\d+)$',aIndex).group(1)
+                    print(aIndex)
+                    branch.append({'text':a.getText(),'link':aIndex})
+                    maxIndex=max(int(aIndex),int(maxIndex))
+                storyData['chat'].append({'chat':chat,'branch':branch})
+                j+=1
+            # chardata['story'].append(storyData)
+        driver.close()
         # it will result in [] with index of the last url
         
         # now navigation
         # every page have a to navigation and it continue without any key before
 
     # tab 9 => voice
-    if(charname in noTerminal):
+    if(charname in noTerminal and charname in noStory ):
+        voice=tabs[7]
+    elif(charname in noTerminal or charname in noStory):
         voice=tabs[8]
     else:
         voice=tabs[9]
@@ -260,7 +263,9 @@ def get_chardata(charname):
     # tab 10 => skin(optional only one who have skin)
     skins=None
     try:
-        if(charname in noTerminal):
+        if(charname in noTerminal and charname in noStory ):
+            skins=tabs[8]
+        elif(charname in noTerminal or charname in noStory):
             skins=tabs[9]
         else:
             skins=tabs[10]   
@@ -295,8 +300,9 @@ def get_chardata(charname):
 
     with open('./json/{charname}.json'.format(charname=charname),'w') as x:
         json.dump(chardata, x, indent = 1)
-    with open('./json/{charname}story.json'.format(charname=charname),'w') as x:
-        json.dump(storyData, x, indent = 1)
+    if(charname not in noStory):
+        with open('./json/{charname}story.json'.format(charname=charname),'w') as x:
+            json.dump(storyData, x, indent = 1)
     if(charname not in noTerminal):
         with open('./json/{charname}terminal.json'.format(charname=charname),'w') as x:
             json.dump(terminalData, x, indent = 1)
