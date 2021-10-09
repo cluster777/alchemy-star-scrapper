@@ -37,8 +37,9 @@ def get_chardata(charname):
     # tab 0 => stat skip completed already
     # tab 1 => skill 
     skill=tabs[1]
-    # skill name  <h4 class="uk-padding-small uk-margin-remove uk-padding-remove">
-    chardata['skill']['name']=skill.find('h4',{'class':'uk-padding-small uk-margin-remove uk-padding-remove'}).getText()
+    snames=skill.find_all('h4',{'class':'uk-padding-small uk-margin-remove uk-padding-remove'})
+    chardata['skill']['name']=snames[0].getText()
+    chardata['chain']['name']=snames[1].getText()
     # tab 2 => equip
     equip=tabs[2]
     # equip name
