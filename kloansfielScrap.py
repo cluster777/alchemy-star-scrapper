@@ -99,26 +99,31 @@ def get_chardata(charname):
     # tab 5 => profile
     profile=tabs[5]
     #description
-    spanned_profile=profile.find_all('span')
-    for i in range(len(spanned_profile)):
+    spanned_profile=profile.find_all('p')
+    chardata['description']=spanned_profile[0].getText()
+    for i in range(1,len(spanned_profile)):
+        tmp=spanned_profile[i].getText().split(': ')
+        #realName
+        if(tmp[0]=='Name'):
+            chardata['realName']=tmp[1]
         #nickname
-        if(spanned_profile[i].getText()=='Nickname:'):
-            chardata['nickname']=(spanned_profile[i+1].getText())
+        if(tmp[0]=='Nickname'):
+            chardata['nickname']=tmp[1]
         #gender
-        if(spanned_profile[i].getText()=='Gender:'):
-            chardata['gender']=(spanned_profile[i+1].getText())
+        if(tmp[0]=='Gender'):
+            chardata['gender']=tmp[1]
         #height
-        if(spanned_profile[i].getText()=='Height:'):
-            chardata['height']=(spanned_profile[i+1].getText())
+        if(tmp[0]=='Height'):
+            chardata['height']=tmp[1]
         #birthday
-        if(spanned_profile[i].getText()=='Birthday:'):
-            chardata['birthday']=(spanned_profile[i+1].getText())
+        if(tmp[0]=='Birthday'):
+            chardata['birthday']=tmp[1]
         #birthplace
-        if(spanned_profile[i].getText()=='Birthplace:'):
-            chardata['birthplace']=(spanned_profile[i+1].getText())
+        if(tmp[0]=='Birthplace'):
+            chardata['birthplace']=tmp[1]
         #fighting style
-        if(spanned_profile[i].getText()=='Fighting Style:'):
-            chardata['style']=(spanned_profile[i+1].getText())
+        if(tmp[0]=='Fighting Style'):
+            chardata['style']=tmp[1]
     # tab 6 => files
     files=tabs[6]
     files_p=files.find_all('p')
