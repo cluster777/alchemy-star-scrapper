@@ -77,7 +77,7 @@ for char in data:
             url="https://alchemystars.kloenlansfiel.com/img/alchemy/logo/{linkname}.webp".format(linkname=linkname)
             im = Image.open(requests.get(url, stream=True,timeout=10).raw)
             im=im.resize((300,150),Image.ANTIALIAS)
-            im=imageedit.add_margin(im,0,0,0,0,(0,0,0,0))
+            im=imageedit.add_margin(im,75,0,75,0,(0,0,0,0))
             im.save("./icon/"+local_filename+".png",optimize=True,quality=50)
         except:
             print("bruh")
