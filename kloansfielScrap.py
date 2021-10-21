@@ -130,7 +130,7 @@ def get_chardata(charname):
     files_h=files.find_all('h4')
     data=[]
     for i in range(len(files_p)):
-        data.append({'file_name':files_h[i].getText(),'files':files_p[i].getText()})
+        data.append({'file_name':files_h[i].getText(),'files':files_p[i].getText(separator="<br><br>")})
     chardata['files']=data
     # for dat in data:
     #     print(dat['file_name'])
