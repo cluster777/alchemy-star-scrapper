@@ -4,7 +4,7 @@ from PIL import Image
 import requests
 import json
 import imageedit
-
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -24,7 +24,7 @@ def get_chardata(charname):
     user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'    
     chrome_options.add_argument('user-agent={0}'.format(user_agent))
     chrome_options.add_argument('window-size=1920x1080')
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
     driver.get("https://alchemystars.kloenlansfiel.com/aurorian/"+charname)
     soup=bs(driver.page_source,'html.parser')
     driver.close()
@@ -159,7 +159,7 @@ def get_chardata(charname):
             url=butt['onclick']
             url=re.search('\'(.*)\'',url).group(1)
             print(url)
-            driver = webdriver.Chrome(options=chrome_options)
+            driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
             driver.get("https://alchemystars.kloenlansfiel.com"+url)
             terminal=bs(driver.page_source,'html.parser')
             driver.close()
@@ -229,7 +229,7 @@ def get_chardata(charname):
             storyData['chat']=[]
             while(j<=maxIndex):
                 print(j,maxIndex)
-                driver = webdriver.Chrome(options=chrome_options)
+                driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
                 driver.get("https://alchemystars.kloenlansfiel.com"+baseurl+str(j))
                 terminal=bs(driver.page_source,'html.parser')
                 h5_all=terminal.find_all('h5')
